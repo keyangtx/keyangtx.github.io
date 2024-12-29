@@ -728,17 +728,6 @@ body {
   background-color: #f8f8f8; // 将页面背景颜色修改为浅灰色，提高视觉舒适度
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-article {
-  margin-bottom: 20px;
-  padding: 15px;
-  border: 1px solid #ccc;
-}
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
