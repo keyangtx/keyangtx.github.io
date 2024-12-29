@@ -728,46 +728,6 @@ body {
   background-color: #f8f8f8; // 将页面背景颜色修改为浅灰色，提高视觉舒适度
 }
 
-// 文章内容的样式优化
-.post {
-  max-width: 800px; // 限制文章的最大宽度，避免在大屏幕上内容过宽
-  margin: 0 auto; // 水平居中文章
-  padding: 20px; // 为文章添加内边距，使其更具呼吸感
-  line-height: 1.0; // 增加行高，提高阅读体验
-}
-
-// 标题样式优化
-h1, h2, h3, h4, h5, h6 {
-  color: #333; // 标题颜色修改为深灰色，增强对比度
-  margin-bottom: 10px; // 标题底部添加一定的间距
-}
-
-h1 {
-  font-size: 2.5em; // 增大一级标题字体大小
-}
-
-h2 {
-  font-size: 2em; 
-}
-
-// 段落样式优化
-p {
-  margin-bottom: 15px; // 段落之间添加一定的间距
-  color: #555; // 段落文字颜色修改为稍暗的灰色
-}
-
-
-// 列表样式优化
-ul, ol {
-  margin-left: 20px; // 列表缩进，提高层次感
-  margin-bottom: 15px; 
-}
-
-li {
-  margin-bottom: 5px; 
-}
-
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
