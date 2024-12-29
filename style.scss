@@ -365,8 +365,8 @@ img {
     max-height: 200px;
 
     @include mobile {
-      max-width: 120px;
-      max-height: 120px;
+      max-width: 100px;
+      max-height: 100px;
     }
 
     img {
