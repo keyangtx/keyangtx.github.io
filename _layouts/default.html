@@ -32,31 +32,3 @@
 
 
 </html>
-
-
-<!-- _layouts/default.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}"> <!-- 引入样式表 -->
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">首页</a></li>
-        <li><a href="{{ '/about' | relative_url }}">关于</a></li>
-        <li><a href="{{ '/tags' | relative_url }}">分类</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    {{ content }} <!-- 文章内容将在此处显示 -->
-  </main>
-  <footer>
-    <p>&copy; 2024 keyangtx</p>
-  </footer>
-</body>
-</html>
