@@ -729,59 +729,6 @@ body {
 }
 
 
-// 隐藏汉堡包按钮（初始状态）
-.hamburger-btn {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-// 汉堡包按钮的线条样式
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: #333;
-  transition: all 0.3s ease-in-out;
-}
-
-// 菜单样式
-.menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-// 菜单选项样式
-.menu-item {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #333;
-}
-
-// 媒体查询，在小屏幕设备上显示汉堡包按钮并调整菜单样式
-@media screen and (max-width: 768px) {
-.hamburger-btn {
-    display: block;
-  }
-
-.menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 50px; // 根据实际情况调整菜单的垂直位置
-    left: 0;
-    width: 100%;
-    background-color: #f1f1f1; // 根据你的设计调整菜单背景颜色
-  }
-
-.menu.active {
-    display: flex;
-  }
-}
 
 
 
