@@ -365,8 +365,8 @@ img {
     max-height: 200px;
 
     @include mobile {
-      max-width: 100px;
-      max-height: 100px;
+      max-width: 120px;
+      max-height: 120px;
     }
 
     img {
@@ -725,81 +725,10 @@ footer {
 
 // 整体页面背景颜色修改
 body {
-  background-color: #f8f8f8; // 将页面背景颜色修改为浅灰色，提高视觉舒适度
-}
-
-
-* {
-    box - sizing: border - box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    justify - content: space - between;
-    align - items: center;
-    padding: 10px;
-    background - color: #f1f1f1;
-}
-
-.hamburger - btn {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background - color: #333;
-    transition: all 0.3s ease - in - out;
-}
-
-.menu {
-    display: flex;
-    list - style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu - item {
-    margin - left: 20px;
-    text - decoration: none;
-    color: #333;
-}
-
-@media screen and (max - width: 768px) {
-.hamburger - btn {
-        display: block;
-    }
-
-.menu {
-        display: none;
-        flex - direction: column;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        width: 100%;
-        background - color: #f1f1f1;
-    }
-
-.menu.active {
-        display: flex;
-    }
-}
-
-
+    background-color: #f8f8f8; // 将页面背景颜色修改为浅灰色，提高视觉舒适度
+  }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 //@import "gitalk";
-
-
