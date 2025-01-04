@@ -1,3 +1,3 @@
 # keyangtx.github.io
 
-My Personal Blog via GitHub
+My Personal Web via GitHub
