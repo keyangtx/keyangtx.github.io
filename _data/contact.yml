@@ -2,14 +2,14 @@
 
 - type: github
   icon: "fab fa-github"
-  
-- type: douyin
-  icon: "fa-brands fa-tiktok" # 使用 TikTok 图标代替
-  url: "https://v.douyin.com/iPJY3Vvq/ 9@4.com"
 
 - type: bilibili
   icon: "fa-brands fa-bilibili" # 使用 Bilibili 图标
   url: "https://b23.tv/zgv6E2Q"
+  
+- type: douyin
+  icon: "fa-brands fa-tiktok" # 使用 TikTok 图标代替
+  url: "https://v.douyin.com/iPJY3Vvq/ 9@4.com"
 
 #- type: twitter
 #  icon: "fa-brands fa-x-twitter"
