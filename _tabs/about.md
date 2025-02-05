@@ -4,5 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> 教育经历
 {: .prompt-tip }
+本科在读
+> 获奖情况
+{: .prompt-tip }
+暂无
