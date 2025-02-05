@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-##  个人简介
+个人简介
 
 > 教育经历
 {: .prompt-tip }
