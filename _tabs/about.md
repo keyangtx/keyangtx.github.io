@@ -13,3 +13,7 @@ order: 4
 > 获奖情况
 {: .prompt-tip }
 暂无
+
+> 专业技能
+{: .prompt-tip }
+暂无
