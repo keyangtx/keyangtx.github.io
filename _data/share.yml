@@ -18,15 +18,21 @@ platforms:
     icon: "fab fa-weibo"
     link: "https://service.weibo.com/share/share.php?title=TITLE&url=URL"
     
-  - type: Bilibili
-    icon: "fa-brands fa-bilibili" # 使用 Bilibili 图标
-    link: "https://space.bilibili.com/你的哔哩哔哩ID?title=TITLE&url=URL"
+  #- type: Bilibili
+  #  icon: "fa-brands fa-bilibili" # 使用 Bilibili 图标
+  #  link: "https://space.bilibili.com/你的哔哩哔哩ID?title=TITLE&url=URL"
  
-  - type: Douyin
-    icon: "fa-brands fa-tiktok" # 使用 TikTok 图标代替
-    link: "https://www.douyin.com/share/user/你的抖音ID?title=TITLE&url=URL"
+  #- type: Douyin
+  #  icon: "fa-brands fa-tiktok" # 使用 TikTok 图标代替
+  #  link: "https://www.douyin.com/share/user/你的抖音ID?title=TITLE&url=URL"
 
+  - type: WeChat
+    icon: "fa-brands fa-weixin"
+    link: "javascript:generateWeChatQRCode()"
 
+  - type: QQ
+    icon: "fa-brands fa-qq"
+    link: "https://connect.qq.com/widget/shareqq/index.html?url=URL&title=TITLE"
 
   # Uncomment below if you need to.
   #
