@@ -35,10 +35,10 @@ social:
   email: zuokeyangtx@163.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://b23.tv/VHRL9jg
     - https://v.douyin.com/iP1CHmsv/ 3@4.com # change to your DouYin homepage
     - https://github.com/keyangtx # change to your GitHub homepage
     # Uncomment below to add more social links
-    - https://b23.tv/VHRL9jg
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/favicons/favicon.ico
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
