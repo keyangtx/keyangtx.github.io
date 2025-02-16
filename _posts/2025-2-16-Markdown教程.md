@@ -155,7 +155,9 @@ int main()
 
 ## 图片
 ```![alt 属性文本](图片地址)```或```![alt 属性文本](图片地址 "可选标题")```
+
 ![alt 属性文本](https://i1.hdslb.com/bfs/face/2b171bd35343fdbfbc579f9f286486ce682bc7f2.jpg@240w_240h_1c_1s_!web-avatar-nav.webp)
+
 Markdown目前无法指定图片的高度和宽度，如有需要，可使用普通的<img>标签。
 ```<img src="https://i1.hdslb.com/bfs/face/2b171bd35343fdbfbc579f9f286486ce682bc7f2.jpg@240w_240h_1c_1s_!web-avatar-nav.webp" width="20%">```
 <img src="https://i1.hdslb.com/bfs/face/2b171bd35343fdbfbc579f9f286486ce682bc7f2.jpg@240w_240h_1c_1s_!web-avatar-nav.webp" width="20%">
