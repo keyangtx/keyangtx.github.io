@@ -1,4 +1,11 @@
-# Markdown 教程
+---
+title: Markdown教程
+date: 2025-2-16 13:00:00 +0800
+categories: 教程
+tags: [干货]     # TAG names should always be lowercase
+description: 速查教程
+author: <author_1>
+---
 
 简介：
 Markdown是一种轻量级标记语言，2004年由 John Grub（约翰·格鲁伯）创建，编写的文档后缀名为 .md， .markdown 。Markdown能被用来写电子书、网站文档等，很多AI大模型也用Markdown语言来呈现文字。Markdown因其简洁性而经久不衰，它能让作者专注于写作而不是排版，同时也简单易学。
