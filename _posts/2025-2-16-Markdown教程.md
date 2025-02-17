@@ -111,7 +111,6 @@ Markdown 仅支持以下几种字体：
 
 **区块**
 可以用( ```` )包裹一段代码，并指定一种语言（也可以不指定）。
-````markdown
 ````C
 #include <stdio.h>
 int main()
@@ -121,7 +120,6 @@ int main()
     return 0;
 }
 ````
-````
 
 ## 链接
 1. ``我的[个人博客](/path/to/web)``
@@ -129,6 +127,7 @@ int main()
 2. ``直接使用链接地址</path/to/web>``
 直接使用链接地址</path/to/web>
 3. 高级链接：通过展示在文档末尾的变量赋值来设置连接。
+
 ````markdown
 这个链接用 1 作为网址变量 [Google][1]
 这个链接用 deepseek 作为网址变量 [DeepSeek][deepseek]
