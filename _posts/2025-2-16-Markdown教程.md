@@ -122,6 +122,7 @@ int main()
 }
 ````
 ````
+
 ````C
 #include <stdio.h>
 int main()
@@ -133,34 +134,34 @@ int main()
 ````
 
 ## 链接
-1. ``我的[个人博客](https://keyangtx.github.io)``
-我的[个人博客](https://keyangtx.github.io)
-2. ``直接使用链接地址<https://keyangtx.github.io>``
-直接使用链接地址<https://keyangtx.github.io>
+1. ``我的[个人博客](/path/to/web)``
+我的[个人博客](/path/to/web)
+2. ``直接使用链接地址</path/to/web>``
+直接使用链接地址</path/to/web>
 3. 高级链接：通过展示在文档末尾的变量赋值来设置连接。
 ````markdown
 这个链接用 1 作为网址变量 [Google][1]
 这个链接用 deepseek 作为网址变量 [DeepSeek][deepseek]
 然后在文档的结尾为变量赋值（网址）
 (空一行)
-  [1]: http://www.google.com/
-  [deepseek]: https://www.deepseek.com/
+  [1]: /path/to/web1
+  [deepseek]: /path/to/web2
 ````
 这个链接用 1 作为网址变量 [Google][1]
 这个链接用 deepseek 作为网址变量 [DeepSeek][deepseek]
 然后在文档的结尾为变量赋值（网址）
 
-  [1]: http://www.google.com/
-  [deepseek]: https://www.deepseek.com/
+  [1]: /path/to/web1
+  [deepseek]: /path/to/web2
 
 ## 图片
 ```![alt 属性文本](图片地址)```或```![alt 属性文本](图片地址 "可选标题")```
 
-![alt 属性文本](https://i1.hdslb.com/bfs/face/2b171bd35343fdbfbc579f9f286486ce682bc7f2.jpg@240w_240h_1c_1s_!web-avatar-nav.webp)
+![alt 属性文本](/path/to/img)
 
 Markdown目前无法指定图片的高度和宽度，如有需要，可使用普通的<img>标签。
-```<img src="https://i1.hdslb.com/bfs/face/2b171bd35343fdbfbc579f9f286486ce682bc7f2.jpg@240w_240h_1c_1s_!web-avatar-nav.webp" width="20%">```
-<img src="https://i1.hdslb.com/bfs/face/2b171bd35343fdbfbc579f9f286486ce682bc7f2.jpg@240w_240h_1c_1s_!web-avatar-nav.webp" width="20%">
+```<img src="/path/to/img" width="20%">```
+<img src="/path/to/img" width="20%">
 
 ## 表格
 Markdown 制作表格使用`|`来分隔不同的单元格，使用`-`来分隔表头和其他行。
