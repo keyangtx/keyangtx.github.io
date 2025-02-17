@@ -111,7 +111,7 @@ Markdown 仅支持以下几种字体：
 
 **区块**
 可以用( ```` )包裹一段代码，并指定一种语言（也可以不指定）。
-````
+````markdown
 ````C
 #include <stdio.h>
 int main()
@@ -121,16 +121,6 @@ int main()
     return 0;
 }
 ````
-````
-
-````C
-#include <stdio.h>
-int main()
-{
-    /* 我的第一个 C 程序 */
-    printf("Hello, World! \n");
-    return 0;
-}
 ````
 
 ## 链接
