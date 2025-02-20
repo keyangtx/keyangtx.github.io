@@ -1,10 +1,10 @@
 ---
 title: Markdown教程
-date: 2025-2-16 13:30:00 +0800
+date: 2025-02-16 13:30:00 +0800
 categories: 教程
-tags: [教程]     # TAG names should always be lowercase
+tags: [教程]
 description: Markdown速查教程
-author: <author_1>
+author: author_1
 ---
 
 简介：
