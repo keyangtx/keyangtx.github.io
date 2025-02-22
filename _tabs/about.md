@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 5
 ---
 
-**个人简介**
+<p style="text-align:center;font=blod"><b>个人简介</b></p>
 
 > 相关技能
 {: .prompt-tip }
