@@ -14,7 +14,7 @@ platforms:
   #  icon: "fab fa-telegram"
   #  link: "https://t.me/share/url?url=URL&text=TITLE"
 
-  - type: Weibo
+  - type: 微博
     icon: "fab fa-weibo"
     link: "https://service.weibo.com/share/share.php?title=TITLE&url=URL"
     
@@ -26,24 +26,9 @@ platforms:
   #  icon: "fa-brands fa-tiktok" # 使用 TikTok 图标代替
   #  link: "https://www.douyin.com/share/user/你的抖音ID?title=TITLE&url=URL"
 
-  - type: WeChat
+  - type: 微信
     icon: "fa-brands fa-weixin"
     link: "javascript:generateWeChatQRCode()"
-
-<!-- 引入 QRCode.js 库 -->
-<script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
-
-<script>
-  // 微信分享二维码生成函数
-  function generateWeChatQRCode(url) {
-    document.getElementById("wechat-qrcode").innerHTML = "";
-    new QRCode(document.getElementById("wechat-qrcode"), {
-      text: url,
-      width: 128,
-      height: 128,
-    });
-  }
-</script>
 
   - type: QQ
     icon: "fa-brands fa-qq"
