@@ -30,6 +30,21 @@ platforms:
     icon: "fa-brands fa-weixin"
     link: "javascript:generateWeChatQRCode()"
 
+<!-- 引入 QRCode.js 库 -->
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+
+<script>
+  // 微信分享二维码生成函数
+  function generateWeChatQRCode(url) {
+    document.getElementById("wechat-qrcode").innerHTML = "";
+    new QRCode(document.getElementById("wechat-qrcode"), {
+      text: url,
+      width: 128,
+      height: 128,
+    });
+  }
+</script>
+
   - type: QQ
     icon: "fa-brands fa-qq"
     link: "https://connect.qq.com/widget/shareqq/index.html?url=URL&title=TITLE"
