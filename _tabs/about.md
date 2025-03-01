@@ -17,7 +17,7 @@ order: 5
 <details open>
 <summary>2025年</summary>
 <ul>
-  <li><strong>2025.1.13</strong> HTML & CSS</li>
+  <li><strong>2025.1.13</strong> HTML</li>
 </ul>
 </details>
 
