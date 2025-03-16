@@ -18,6 +18,7 @@ order: 5
 <summary>2025年</summary>
 <ul>
   <li><strong>2025.1.13</strong> HTML</li>
+  <li><strong>2025.2.28</strong> Python</li>
 </ul>
 </details>
 
@@ -25,7 +26,7 @@ order: 5
 {: .prompt-tip }
 本科在读
 
-> 我想说
+> 作者说
 {: .prompt-tip }
 只有大胆往前走，才能打破眼前的壁垒。
 
