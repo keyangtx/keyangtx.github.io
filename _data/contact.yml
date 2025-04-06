@@ -11,6 +11,10 @@
   icon: "fa-brands fa-tiktok" # 使用 TikTok 图标代替
   url: "https://v.douyin.com/iPJY3Vvq/ 9@4.com"
 
+- type: luogu
+  icon: "fas fa-laptop-code"  # 使用笔记本电脑编程图标代替
+  url: "https://www.luogu.com.cn/user/1669435"
+
 #- type: twitter
 #  icon: "fa-brands fa-x-twitter"
 
